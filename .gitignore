@@ -1,0 +1,28 @@
+# Local .terragrunt directories
+**/.terragrunt-cache/*
+**/.tg/*
+
+#  Local .terraform directories
+**/.terraform/*
+**/.tf/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# TF Unit test experiment workspace
+/experiments/UNIT/**/*
+
+#Local notes files
+**/*.local
+
+# Visual Studio cache location
+.vs/*
+
+# Mac cache location
+.DS_Store
+.vscode/launch.json
+**/.terraform.lock.hcl
