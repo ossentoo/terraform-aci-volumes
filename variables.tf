@@ -36,7 +36,7 @@ variable "ContainerInstances" {
           "ReadOnly" : false,
           "Secrets" : {
             "ssl.crt" : "-----BEGIN CERTIFICATE-----\nMIIFIzCCBAugAwIBAgISA\n-----END CERTIFICATE-----",
-            "ssl.key" : "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBK/ro3dDTa\n3DY6fx0P5vUmk/5sFc0uLXQ=\n-----END PRIVATE KEY-----"
+            "ssl.key" : "-----BLAH KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBK/ro3dDTa\n3DY6fx0P5vUmk/5sFc0uLXQ=\n-----END BLAH KEY-----"
           }
         },
         {
